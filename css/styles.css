@@ -155,6 +155,11 @@ cursor: pointer;
 transform: translateY(-5px);
 box-shadow: 0 8px 20px rgba(0,0,0,0.7);
 }
+.team-card:img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+};
 .team-name {
 font-size: 1.3rem;
 color: #e10600;
