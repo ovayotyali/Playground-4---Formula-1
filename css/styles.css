@@ -1,8 +1,305 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;
+background-color: #111;
+box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.navbar .logo {
+font-size: 1.8rem;
+font-weight: bold;
+color: #e10600;
+}
+.navbar ul {
+display: flex;
+list-style: none;
+}
+.navbar ul li {
+margin-left: 25px;
+}
+.navbar ul li a {
+text-decoration: none;
+color: #fff;
+font-weight: 500;
+transition: color 0.3s;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active {
+color: #e10600;
+}
+
+/* Hero Section */
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 70vh;
+background: linear-gradient(135deg, #1a1a1a 0%, #111 100%);
+}
+.hero-content h1 {
+font-size: 3rem;
+margin-bottom: 20px;
+color: #e10600;
+}
+.hero-content p {
+font-size: 1.2rem;
+margin-bottom: 30px;
+color: #ccc;
+}
+.cta-button {
+padding: 12px 30px;
+background-color: #e10600;
+color: #fff;
+border: none;
+border-radius: 6px;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.cta-button:hover {
+background-color: #b00500;
+}
+
+/* Cards Section */
+.cards-section {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 50px;
+gap: 30px;
+}
+.card {
+background-color: #1a1a1a;
+border-radius: 12px;
+padding: 25px;
+flex: 1 1 250px;
+max-width: 300px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+.card h2 {
+color: #e10600;
+margin-bottom: 15px;
+}
+.card p {
+color: #ccc;
+margin-bottom: 15px;
+}
+.card a {
+color: #e10600;
+text-decoration: none;
+font-weight: bold;
+}
+.card a:hover {
+text-decoration: underline;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+background-color: #111;
+margin-top: 50px;
+color: #777;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+.navbar {
+flex-direction: column;
+}
+.cards-section {
+flex-direction: column;
+align-items: center;
+}
+}
+
+/* TEAM PAGE STYLING */
+.teams-container {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: center;
+margin: 20px;
+}
+
+.team-card {
+background-color: #1a1a1a;
+text-decoration: none;
+color: inherit;
+border-radius: 12px;
+padding: 20px;
+width: 250px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+transition: transform 0.3s, box-shadow 0.3s;
+cursor: pointer;
+}
+.team-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+.team-name {
+font-size: 1.3rem;
+color: #e10600;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-desc {
+font-size: 1rem;
+color: #ccc;
+}
+
+
+@media (max-width: 768px) {
+.teams-container {
+flex-direction: column;
+align-items: center;
+}
+}
+
+/* INDIVIDUAL TEAM PAGE STYLING */
+/* Header */
+.team-header {
+text-align: center;
+padding: 50px 20px 30px 20px;
+background: linear-gradient(135deg, #1a1a1a 0%, #111 100%);
+}
+.team-header .team-logo {
+width: 150px;
+margin-bottom: 20px;
+}
+.team-header .team-name {
+font-size: 2.5rem;
+color: #e10600;
+margin-bottom: 10px;
+}
+.team-header .team-base {
+font-size: 1.1rem;
+color: #ccc;
+}
+
+/* Info Cards */
+.team-info {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+padding: 40px 20px;
+}
+.info-card {
+background-color: #1a1a1a;
+border-radius: 12px;
+padding: 25px;
+width: 300px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.info-card h2 {
+color: #e10600;
+margin-bottom: 15px;
+}
+.info-card p {
+color: #ccc;
+margin-bottom: 10px;
+}
+
+/* Drivers List */
+.drivers-list {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.driver-item {
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #f0f0f0;
+transition: transform 0.3s, color 0.3s;
+}
+.driver-item img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 15px;
+}
+.driver-item:hover {
+color: #e10600;
+transform: translateX(5px);
+}
+
+/* Stats Table */
+.team-stats {
+padding: 0 20px 40px 20px;
+text-align: center;
+}
+.stats-table {
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+border-collapse: collapse;
+}
+.stats-table th, .stats-table td {
+padding: 12px;
+border: 1px solid #333;
+}
+.stats-table th {
+background-color: #111;
+color: #e10600;
+}
+.stats-table td {
+background-color: #1a1a1a;
+color: #ccc;
+}
+
+
+/* History Section */
+.team-history {
+padding: 40px 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+.team-history h2 {
+color: #e10600;
+margin-bottom: 20px;
+}
+.team-history p {
+color: #ccc;
+line-height: 1.6;
+}
+
+
+/* Footer */
+footer.footer {
+text-align: center;
+padding: 20px;
+background-color: #111;
+color: #777;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+.team-info {
+flex-direction: column;
+align-items: center;
+}
+.stats-table {
+font-size: 0.9rem;
+}
 }
