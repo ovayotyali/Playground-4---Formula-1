@@ -308,6 +308,21 @@ margin-right: 15px;
 color: #e10600;
 transform: translateX(5px);
 }
+.driver-name{
+    text-decoration: none;
+}
+.driver-team{
+    text-decoration: none;
+}
+.driver-card{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
 
 /* Stats Table and Career Table */
 .team-stats {
