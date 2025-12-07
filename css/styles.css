@@ -160,9 +160,70 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.7);
     height: 20px;
     border-radius: 20px;
 };
-.team-name {
+
+.team-name-haas {
+font-size: 1.3rem;
+color: #ffffff;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-astonmartin {
+font-size: 1.3rem;
+color: #047c00;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-alpine {
+font-size: 1.3rem;
+color: #f700ff;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-audi {
+font-size: 1.3rem;
+color: #ff2323;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-cadillac {
+font-size: 1.3rem;
+color: #865700;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-ferrari {
 font-size: 1.3rem;
 color: #e10600;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-mclaren {
+font-size: 1.3rem;
+color: #ff8800;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-mercedes {
+font-size: 1.3rem;
+color: #00ffb3;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-racingbulls {
+font-size: 1.3rem;
+color: #02a2ff;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-redbull {
+font-size: 1.3rem;
+color: #1900ff;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.team-name-williams {
+font-size: 1.3rem;
+color: #0059ff;
 margin-bottom: 10px;
 font-weight: bold;
 }
@@ -192,7 +253,7 @@ margin-bottom: 20px;
 }
 .team-header .team-name {
 font-size: 2.5rem;
-color: #e10600;
+color: #ffffff;
 margin-bottom: 10px;
 }
 .team-header .team-base {
@@ -248,7 +309,7 @@ color: #e10600;
 transform: translateX(5px);
 }
 
-/* Stats Table */
+/* Stats Table and Career Table */
 .team-stats {
 padding: 0 20px 40px 20px;
 text-align: center;
@@ -270,6 +331,27 @@ color: #e10600;
 .stats-table td {
 background-color: #1a1a1a;
 color: #ccc;
+}
+.career-table {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.career-table th, .career-table td {
+    padding: 12px;
+    border: 1px solid #333;
+}
+
+.career-table th{
+    background-color: #111;
+    color: #e10600;
+}
+
+.career-table td {
+    background-color: #1a1a1a;
+    color: #ccc;  
 }
 
 
