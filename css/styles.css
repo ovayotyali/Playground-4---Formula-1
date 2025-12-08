@@ -159,17 +159,26 @@ cursor: pointer;
 transform: translateY(-5px);
 box-shadow: 0 8px 20px rgba(0,0,0,0.7);
 }
-.team-card:img{
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
+.team-card img{
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 };
 
 .team-name-haas {
-font-size: 1.3rem;
-color: #ffffff;
-margin-bottom: 10px;
-font-weight: bold;
+    font-size: 1.3rem;
+    color: #f7f7f7;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.team-name-haas {
+    font-size: 1.3rem;
+    color: #f7f7f7;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 .team-name-astonmartin {
 font-size: 1.3rem;
