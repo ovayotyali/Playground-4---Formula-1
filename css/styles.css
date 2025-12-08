@@ -92,7 +92,7 @@ color: #e10600;
 }
 .driver-header-charles {
   width: 100%;
-  height: 100vh; /* adjust until image looks right */
+  height: 80vh; /* adjust until image looks right */
   background-image: url('../images/CharlesLeclercDriverPageImage2.png');
   background-size: cover;
   background-position: center 20%; /* lifts image up and reduces apparent zoom */
@@ -354,8 +354,295 @@ color: #e10600;
   text-align: center;
   color: #4d0101;
 }
-
-
+.track-card-bahrain{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/BahrainTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-saudiarabia{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/SaudiArabianTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-china{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/ChinaTrackImage2.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-australia{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/AustraliaTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-japan{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/JapanTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-miami{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/MiamiTrackImage.jpg');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-imola{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/ImolaTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-monaco{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/MonacoTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-spain{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/SpainTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #912e00;
+  text-decoration: none;
+}
+.track-card-baku{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/BakuTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-singapore{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/SingaporeTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-austin{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/AustinTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-mexican{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/MexicanTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ff0505;
+  text-decoration: none;
+}
+.track-card-brazil{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/BrazilTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-lasvegas{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/LasVegasTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-qatar{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/QatarTrackImage.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.track-card-abu-dhabi{
+  width: 100%;
+  height: 75vh; /* adjust until image looks right */
+  background-image: url('../images/AbuDhabiTrackImage2.png');
+  background-size: cover;
+  background-position: center 20%; /* lifts image up and reduces apparent zoom */
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content to the bottom */
+  padding-bottom: 60px;      /* spacing from bottom */
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
 /* Cards Section */
 .cards-section {
 display: flex;
@@ -700,4 +987,71 @@ align-items: center;
 .stats-table {
 font-size: 0.9rem;
 }
+}
+
+/* ---------- RACES PAGE ---------- */
+
+.races-page {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.races-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+/* Races list grid */
+.races-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Race card */
+.race-card {
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid #222;
+}
+
+.race-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Race image */
+.race-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  transition: filter 0.25s ease, transform 0.25s ease;
+  filter: grayscale(100%);
+}
+
+.race-card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* Race info block */
+.race-info {
+  padding: 15px 18px;
+}
+
+.race-info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.race-info p {
+  font-size: 0.95rem;
+  color: #bbb;
 }
