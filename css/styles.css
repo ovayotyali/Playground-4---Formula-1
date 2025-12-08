@@ -616,6 +616,9 @@ transform: translateX(5px);
     gap: 30px;
     padding: 30px;
 }
+.driver-bio{
+  text-align: center;
+}
 
 /* Stats Table and Career Table */
 .team-stats {
